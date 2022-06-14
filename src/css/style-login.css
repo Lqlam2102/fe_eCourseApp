@@ -1,0 +1,78 @@
+
+@keyframes wawes {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login,
+.signUp {
+  transform: translate(-50%, -50%);
+  transition: transform 300ms, box-shadow 300ms;
+}
+
+.login::before,
+.signUp::before {
+  animation: wawes 6s infinite linear;
+}
+
+.login::after,
+.signUp::after {
+  animation: wawes 7s infinite;
+}
+
+.login>button,
+.signUp>button {
+  transition: background-color 300ms;
+}
+
+
+
+.form-group.invalid .form-control {
+  border: 1px solid;
+  border-color: #f33a58;
+}
+
+.form-control {
+  border: none;
+}
+
+.form-control:hover {
+  border: 1px solid;
+  border-color: #1dbfaf;
+}
+
+.form-message {
+  font-size: .8rem;
+  line-height: 1rem;
+  margin: 0 0 1rem -.5rem;
+}
+
+.form-group.invalid .form-message {
+  color: #f33a58;
+}
+
+.loading-check-exist-user {
+  position: absolute;
+  top: 11%;
+  right: 10%;
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+
+.password-field {
+  position: relative;
+}
+
+#toggler,#toggler-confirm {
+  position: absolute;
+  top: 20%;
+  right: 10%;
+  opacity: 80%;
+  cursor: pointer;
+}

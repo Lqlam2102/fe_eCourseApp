@@ -1,0 +1,62 @@
+
+.typing.animate {
+  width: 23ch;
+  border-right: 0.1em solid black;
+  font-family: monospace;
+  font-size: 2em;
+  animation: type 2.5s steps(22), writer 1.5s infinite alternate, delete 0.5s steps(7) 2.5s, type2 2s steps(8) 3s forwards, type3 3s steps(22, end) 6s forwards;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+.typing.animate::before { 
+  content: "Hello, I'm Le Quy Lsm";
+  animation: type2 2s steps(1) 3s forwards, type3 3s steps(22, end) 6s forwards;
+}
+
+@keyframes type {
+  from {
+    width: 0;
+  }
+  to {
+    width: 23ch;
+  }
+}
+
+@keyframes type2 {
+  from {
+    width: 16ch;
+    content: "Hello, I'm Le Quy Lam. "
+  }
+  to {
+    width: 23ch;
+    content: "Hello, I'm Le Quy Lam. "
+  }
+}
+
+@keyframes type3 {
+  from {
+    width: 23ch;
+    content: "Hello, I'm Le Quy Lam. Welcome to my Website!"
+  }
+  to {
+    width: 46ch;
+    content: "Hello, I'm Le Quy Lam. Welcome to my Website!"
+  }
+}
+
+@keyframes writer {
+  50% {
+    border-color: transparent;
+  }
+}
+
+@keyframes delete {
+  from {
+    width: 23ch;
+  }
+  to {
+    width: 17ch;
+  }
+}
