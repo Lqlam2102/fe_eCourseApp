@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fe_eCourseApp/static/css/main.15068c26.chunk.css",
-    "main.js": "/fe_eCourseApp/static/js/main.12d06033.chunk.js",
-    "main.js.map": "/fe_eCourseApp/static/js/main.12d06033.chunk.js.map",
+    "main.js": "/fe_eCourseApp/static/js/main.b8ec006a.chunk.js",
+    "main.js.map": "/fe_eCourseApp/static/js/main.b8ec006a.chunk.js.map",
     "runtime-main.js": "/fe_eCourseApp/static/js/runtime-main.3c4b77a0.js",
     "runtime-main.js.map": "/fe_eCourseApp/static/js/runtime-main.3c4b77a0.js.map",
     "static/css/2.f2512455.chunk.css": "/fe_eCourseApp/static/css/2.f2512455.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.f2512455.chunk.css",
     "static/js/2.6cecb2a2.chunk.js",
     "static/css/main.15068c26.chunk.css",
-    "static/js/main.12d06033.chunk.js"
+    "static/js/main.b8ec006a.chunk.js"
   ]
 }
