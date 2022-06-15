@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/fe_eCourseApp/static/css/main.15068c26.chunk.css",
-    "main.js": "/fe_eCourseApp/static/js/main.2133926b.chunk.js",
-    "main.js.map": "/fe_eCourseApp/static/js/main.2133926b.chunk.js.map",
+    "main.css": "/fe_eCourseApp/static/css/main.5c6c3abc.chunk.css",
+    "main.js": "/fe_eCourseApp/static/js/main.24f55b8a.chunk.js",
+    "main.js.map": "/fe_eCourseApp/static/js/main.24f55b8a.chunk.js.map",
     "runtime-main.js": "/fe_eCourseApp/static/js/runtime-main.3c4b77a0.js",
     "runtime-main.js.map": "/fe_eCourseApp/static/js/runtime-main.3c4b77a0.js.map",
     "static/css/2.f2512455.chunk.css": "/fe_eCourseApp/static/css/2.f2512455.chunk.css",
@@ -12,14 +12,14 @@
     "static/js/3.e90eb699.chunk.js.map": "/fe_eCourseApp/static/js/3.e90eb699.chunk.js.map",
     "index.html": "/fe_eCourseApp/index.html",
     "static/css/2.f2512455.chunk.css.map": "/fe_eCourseApp/static/css/2.f2512455.chunk.css.map",
-    "static/css/main.15068c26.chunk.css.map": "/fe_eCourseApp/static/css/main.15068c26.chunk.css.map",
+    "static/css/main.5c6c3abc.chunk.css.map": "/fe_eCourseApp/static/css/main.5c6c3abc.chunk.css.map",
     "static/js/2.6cecb2a2.chunk.js.LICENSE.txt": "/fe_eCourseApp/static/js/2.6cecb2a2.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.3c4b77a0.js",
     "static/css/2.f2512455.chunk.css",
     "static/js/2.6cecb2a2.chunk.js",
-    "static/css/main.15068c26.chunk.css",
-    "static/js/main.2133926b.chunk.js"
+    "static/css/main.5c6c3abc.chunk.css",
+    "static/js/main.24f55b8a.chunk.js"
   ]
 }
